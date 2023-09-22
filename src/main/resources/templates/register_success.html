@@ -2,6 +2,13 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="ISO-8859-1">
+    <div id="top-header">
+        <!-- Logo -->
+        <div id="logo">
+            <img src="../static/header.png" width="100%" th:src="@{header.png}"/>
+        </div>
+    </div>
+    <br/><br/>
     <title>Registration Success</title>
     <style type="text/css">
         span {
@@ -23,4 +30,12 @@
     <span>Note:</span><span th:text="${user.note}"></span><br/>-->
 </div>
 </body>
+
+<footer>
+    <br/><br/>
+    <div id="logo">
+        <img src="../static/footer.png" width="100%" th:src="@{footer.png}"/>
+    </div>
+
+</footer>
 </html>
